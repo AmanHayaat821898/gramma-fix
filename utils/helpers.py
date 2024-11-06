@@ -70,7 +70,7 @@ def replace_merge_transforms(tokens):
         return tokens
 
     target_line = " ".join(tokens)
-    target_line = target_line.replace(" $MERGE_HYPHEN ", "-")
+    target_line = target_line.replace(" $MERGE_HYPEN ", "-")
     target_line = target_line.replace(" $MERGE_SPACE ", "")
     return target_line.split()
 
