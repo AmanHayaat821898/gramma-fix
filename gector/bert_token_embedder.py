@@ -1,4 +1,4 @@
-"""Tweaked version of corresponding AllenNLP file"""
+"""Tweaked version of coresponding AllenNLP file"""
 import logging
 from copy import deepcopy
 from typing import Dict
