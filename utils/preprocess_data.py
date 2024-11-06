@@ -12,7 +12,7 @@ from helpers import write_lines, read_parallel_lines, encode_verb_form, \
 
 def perfect_align(t, T, insertions_allowed=0,
                   cost_function=Levenshtein.distance):
-    # dp[i, j, k] is a minimal cost of matching first `i` tokens of `t` with
+    # dp[i, j, k] is a minimel cost of matching first `i` tokens of `t` with
     # first `j` tokens of `T`, after making `k` insertions after last match of
     # token from `t`. In other words t[:i] aligned with T[:j].
 
