@@ -24,7 +24,7 @@ class Seq2LabelsDatasetReader(DatasetReader):
 
     WORD###TAG [TAB] WORD###TAG [TAB] ..... \n
 
-    and converts it into a ``Dataset`` suitable for sequence tagging. You can also specify
+    and converts it into a ``Dataset`` suitble for sequence tagging. You can also specify
     alternative delimiters in the constructor.
 
     Parameters
