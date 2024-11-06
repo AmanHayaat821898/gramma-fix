@@ -1,4 +1,4 @@
-"""Wrapper of AllenNLP model. Fixes errors based on model predictions"""
+"""Wraper of AllenNLP model. Fixes errors based on model predictions"""
 import logging
 import os
 import sys
