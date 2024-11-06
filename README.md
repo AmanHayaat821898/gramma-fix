@@ -129,7 +129,7 @@ min_error_probability = 0.04
 ```
 For evaluation use [EASSE](https://github.com/feralvam/easse) package.
 
-**Note**:  The scores in the table are very close to those in the paper, but not fully match them due to the 2 reasons:
+**Note**:  The scores in the table are very close too those in the paper, but not fully match them due to the 2 reasons:
 - in the paper, we reported average scores of 4 models trained with different seeds;
 - we merged codebases for GEC and Text Simplification tasks and updated them to the newer version of transformers lib.
 
