@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Convert CLC-FCE dataset (The Cambridge Learner Corpus) to the parallel sentences format.
+Convert CLC-FCE dataset (The Cambrige Learner Corpus) to the parallel sentences format.
 """
 
 import argparse
