@@ -106,7 +106,7 @@ def main(args):
     dev_data = reader.read(args.dev_set)
 
     default_tokens = [DEFAULT_OOV_TOKEN, DEFAULT_PADDING_TOKEN]
-    namespaces = ['labels', 'd_tags']
+    namespaces = ['label', 'd_tags']
     tokens_to_add = {x: default_tokens for x in namespaces}
     # build vocab
     if args.vocab_path:
