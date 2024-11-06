@@ -165,12 +165,10 @@ If you find this work is useful for your research, please cite our papers:
 ```
 @inproceedings{omelianchuk-etal-2021-text,
     title = "{T}ext {S}implification by {T}agging",
-    author = "Omelianchuk, Kostiantyn  and
-      Raheja, Vipul  and
-      Skurzhanskyi, Oleksandr",
+    author = "Aman Hayaat",
     booktitle = "Proceedings of the 16th Workshop on Innovative Use of NLP for Building Educational Applications",
-    month = apr,
-    year = "2021",
+    month = September,
+    year = "2024",
     address = "Online",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2021.bea-1.2",
