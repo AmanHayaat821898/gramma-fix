@@ -22,7 +22,7 @@ class Seq2Labels(Model):
 
     Parameters
     ----------
-    vocab : ``Vocabulary``, required
+    vocab : ``Vocabulry``, required
         A Vocabulary, required in order to compute sizes for input/output projections.
     text_field_embedder : ``TextFieldEmbedder``, required
         Used to embed the ``tokens`` ``TextField`` we get as input to the model.
