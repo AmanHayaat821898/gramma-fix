@@ -50,7 +50,7 @@ def main(args):
                                        batch_size=args.batch_size, 
                                        to_normalize=args.normalize)
     # evaluate with m2 or ERRANT
-    print(f"Produced overall corrections: {cnt_corrections}")
+    print(f"Produced overall correction: {cnt_corrections}")
 
 
 if __name__ == '__main__':
