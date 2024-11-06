@@ -2,7 +2,7 @@
 
 We trained model during 3 stages. Each stage requires different data. All data should be preprocessed with preprocessing script before. We use single GPU for all stages. More details can be found in the paper.
 For stage1 we used shuffled 9m sentence from PIE corpus (a1 part only)
-For stage2 we used shuffled combination of NUCLE, FCE, Lang8, W&I + locness datasets. Notice that we used dump of Lang8  which contained only 947,344 sentences (in 52.5% of them source/target sentences were different). If you use newer dump which has more sentences - consider sampling.
+For stage2 we used shuffled combination of NUCLE, FCE, Lang8, W&I + locnes datasets. Notice that we used dump of Lang8  which contained only 947,344 sentences (in 52.5% of them source/target sentences were different). If you use newer dump which has more sentences - consider sampling.
 For stage3 we used shuffled version of W&I + locness datasets.
 
 
