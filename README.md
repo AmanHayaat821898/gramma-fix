@@ -61,7 +61,7 @@ To train the model, simply run:
 python train.py --train_set TRAIN_SET --dev_set DEV_SET \
                 --model_dir MODEL_DIR
 ```
-There are a lot of parameters to specify among them:
+There are a lot of paramters to specify among them:
 - `cold_steps_count` the number of epochs where we train only last linear layer
 - `transformer_model {bert,distilbert,gpt2,roberta,transformerxl,xlnet,albert}` model encoder
 - `tn_prob` probability of getting sentences with no errors; helps to balance precision/recall
