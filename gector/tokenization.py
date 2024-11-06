@@ -169,7 +169,7 @@ def tokenize_batch(tokenizer, batch_tokens, index_name="bert",
                                               max_bpe_pieces=max_bpe_pieces)
 
     t3 = time()
-    timings["reduce_time"] = t3 - t2
+    timings["reduced_time"] = t3 - t2
     # pad output
     output = pad_output(output)
     t4 = time()
