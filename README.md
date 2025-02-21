@@ -69,9 +69,7 @@ There are a lot of paramters to specify among them:
 
 In our experiments we had 98/2 train/dev split.
 
-## Training parameters
-We described all parameters that we use for training and evaluating [here](https://github.com/grammarly/gector/blob/master/docs/training_parameters.md). 
-<br>
+
 
 ## Model inference
 To run your model on the input file use the following command:
@@ -129,9 +127,7 @@ min_error_probability = 0.04
 ```
 For evaluation use [EASSE](https://github.com/feralvam/easse) package.
 
-**Note**:  The scores in the table are very close too those in the paper, but not fully match them due to the 2 reasons:
-- in the paper, we reported average scores of 4 models trained with different seeds;
-- we merged codebases for GEC and Text Simplification tasks and updated them to the new version of transformers lib.
+
 
 ## Noticeable works based on GECToR
 
